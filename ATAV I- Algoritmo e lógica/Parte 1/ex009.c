@@ -11,9 +11,9 @@ int main(){
         printf("Os numeros sao iguais");
     } else if (n1 > n2)
     {
-        printf("O numero 1 e maior");
+        printf("O primeiro numero e maior");
     } else{
-        printf("O numero 2 e maior");
+        printf("O segundo numero e maior");
     }
     
     return 0;
