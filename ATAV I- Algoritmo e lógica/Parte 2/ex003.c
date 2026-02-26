@@ -25,5 +25,5 @@ int main(){
         printf("Estado: Aprovado");
     }
     
-    
+    return 0;
 }
