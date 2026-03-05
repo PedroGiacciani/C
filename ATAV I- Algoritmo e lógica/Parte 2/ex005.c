@@ -2,11 +2,11 @@
 #include <math.h>
 
 int main(){
-    float n1, n2, res;
-    int op1, op2;
+    float res;
+    int op1, op2, n1, n2, x1, x2;
 
-    printf("Digite dois numeros: \n");
-    scanf("%f%f", &n1, &n2);
+    printf("Digite dois numeros inteiros: \n");
+    scanf("%d%d", &n1, &n2);
     printf("Voce deseja fazer qual tipo de operacao:\n 1 - Basica\n 2- Avancada\n");
     scanf("%d", &op1);
 
@@ -21,7 +21,7 @@ int main(){
             break;
         case 2:
             res = n1 - n2;
-            print("A subtracao deu: %.2f", res);
+            printf("A subtracao deu: %.2f", res);
             break;
         case 3:
             res = n1 * n2;
@@ -45,7 +45,6 @@ int main(){
         scanf("%d", &op2);
         switch (op2){
         case 1:
-            int n1, n2;
             res = n1%n2;
             printf("O resto da divisao deu: %.2f", res);
             break;
@@ -54,26 +53,24 @@ int main(){
             printf("A soma dos quadrados deu: %.2f", res);
             break;
         case 3:
-            int i1, i2;
-            i1 = ++n1;
-            i2 = ++n2;
-            printf("O incremento dos dois valores e: %d%d", i1, i2);
+            x1 = ++n1;
+            x2 = ++n2;
+            printf("O incremento dos dois valores e: %d e %d", x1, x2);
             break;
         case 4:
-            int i1, i2;
-            i1 = --n1;
-            i2 = --n2;
-            printf("O decremento dos dois valores e: %d%d", i1, i2);
+            x1 = --n1;
+            x2 = --n2;
+            printf("O decremento dos dois valores e: %d e %d", x1, x2);
             break;
         default:
             printf("Opcao invalida");
             break;
         }
+        break;
     default:
         printf("Opcao invalida");
         break;
     }
-
 
     return 0;
 }
