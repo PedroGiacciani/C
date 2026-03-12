@@ -2,6 +2,7 @@
 
 int main(){
     int n, s;
+    s = 0;
 
     for (int i = 1; i <= 3; i++){
         printf("Digite um numero:\n");
