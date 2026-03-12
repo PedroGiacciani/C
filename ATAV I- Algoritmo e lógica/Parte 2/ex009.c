@@ -26,5 +26,4 @@ int main(){
     printf("O filho mais velho tem %d anos, e o mais novo tem %d anos", maior, menor);
 
     return 0;
-    
 }

@@ -5,7 +5,7 @@ int main(){
     float res, n1, n2, x1, x2;
     int op1, op2;
 
-    printf("Digite dois numeros inteiros: \n");
+    printf("Digite dois numeros: \n");
     scanf("%f%f", &n1, &n2);
     printf("Voce deseja fazer qual tipo de operacao:\n 1 - Basica\n 2- Avancada\n");
     scanf("%d", &op1);
