@@ -11,17 +11,19 @@ int main(){
     menor = idd;
 
     for(int i = 1; i <= 4; i++){
-        printf("Digite a idade do proximo filho");
+        printf("Digite a idade do proximo filho\n");
         scanf("%d", &idd);
         
         if (idd > maior){
             maior = idd;
-        } else if (idd < menor){
-            idd = menor;
+        }
+        
+        if (idd < menor){
+            menor = idd;
         }   
     }
 
-    printf("O filho mais velho tem %d, e o mais novo tem %d", maior, menor);
+    printf("O filho mais velho tem %d anos, e o mais novo tem %d anos", maior, menor);
 
     return 0;
     
