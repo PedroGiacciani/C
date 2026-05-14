@@ -8,7 +8,7 @@ int main(){
 
         if(N == 0){
             return 0;
-        } else if(N == 1){
+        } else if(N < 2 || N > 10){
             i--;
         } else{
             for(int j = 1; j <= 10; j++){
